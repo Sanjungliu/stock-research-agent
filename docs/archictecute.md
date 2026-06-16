@@ -1,14 +1,13 @@
 User
-  |
-  v
-Stock Research Agent
-  |
-  +--> Stock Data Tool
-  |
-  +--> News Tool
-  |
-  v
-Research Report
+↓
+Investment Analyst Agent
+↓
+├── Stock Data Tool
+├── News Tool
+↓
+Analysis Engine
+↓
+Investment Analysis Report
 
 # Non-Goals
 This project is NOT intended to:
