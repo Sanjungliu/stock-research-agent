@@ -52,7 +52,8 @@ Tradeoffs:
 
 # Decision 003
 
-Title: Research Assistant vs Investment Analyst
+Title:
+Research Assistant vs Investment Analyst
 
 Alternatives:
 1. Research Assistant
@@ -73,3 +74,28 @@ trade execution.
 Tradeoffs:
 Requires more sophisticated evaluation,
 financial knowledge, and data quality.
+
+# Decision 004
+
+Title:
+Why Start With a Single Agent?
+
+Alternatives:
+1. Single Agent
+2. Multi-Agent
+
+Decision:
+Start with a single agent,
+
+Reason:
+Learn tools, prompts, and workflows before
+adding coordination complexity.
+
+Benefits:
+- Easier debugging
+- Faster iteration
+- Smaller learning surface
+
+Tradeoffs:
+- Less specialized behaviour
+- Limited scalability
