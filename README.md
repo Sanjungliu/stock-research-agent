@@ -1,2 +1,3 @@
-# stock-research-agent
-An AI-powered stock research assistant built with LangGraph, RAG, Vector Databases, and LLMs.
+# Stock Research Agent
+
+### An AI-powered stock research assistant built with LangGraph, RAG, Vector Databases, and LLMs.
