@@ -99,3 +99,9 @@ Benefits:
 Tradeoffs:
 - Less specialized behaviour
 - Limited scalability
+
+Revisit When:
+- The agent exceeds 5-10 tools
+- Different analysis tasks require specialized prompts
+- Tool selection becomes unreliable
+- Workflow complexitu becomes difficult to maintain
