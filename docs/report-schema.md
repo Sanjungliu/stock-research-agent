@@ -2,7 +2,7 @@
   "ticker": "AAPL",
   "recommendation": "BUY",
   "confidence": 81.2,
-  ""investment_thesis"": "",
+  "investment_thesis": "",
   "strengths": [
     "Revenue increased 12% year-over-year",
     "Strong cash reserves of $80 billion",
@@ -18,6 +18,7 @@
   "supporting_evidence": [
     {
       "type": "financial",
+      "stance": "supporting",
       "evidence": "Revenue increased 12% YoY",
       "source": {
         "title": "Apple Q2 2026 Earnings Report",
@@ -26,6 +27,7 @@
     },
     {
       "type": "news",
+      "stance": "contradicting",
       "evidence": "Company announced new AI-powered products",
       "source": {
         "title": "Apple unveils next-generation AI platform",
