@@ -134,3 +134,22 @@ Revisit When:
 - Need more control of the workflow later
 - the architecture grows into more complex system
 - has multiple component that need to handled
+
+# Decision 006
+
+Title:
+Why Structured Output?
+
+Alternatives:
+- Structured output
+- text-based output
+
+Decision:
+Structured output.
+
+Reason:
+- Easier testing
+- Easier validation
+- Easier future integrations
+- More predictable behaviour
+

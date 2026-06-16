@@ -3,7 +3,7 @@
 - LLM: a Large Language Model which is one of type of model that created by Machine Learning. This model is specificly to handle text generation. How it is created is by feed a huge unstructured data into ML and teach it to store and give weight to the each token.
 - Token: a chuncked section from a word. For example, word "Honestly" can be chuncked into "Honest", "Honestly" and "ly" token. Each of them having its own weight inside LLM.
 - Weight: is an identifier/location that token have. During a training, ML will give each token a weight, which token that has close similarity with another token will have a closer gap of weight compared to other token that is not relevant.
-- Agent: an system that utilize LLM and tools to achieve goals.
+- Agent: an system that utilize LLM to reason, decide actions, invoke tools, and produce a result toward a goal.
 - Agentic System: a system that can autonomously doing action to achieve goals that determined to the agent.
 - LangChain: framework that used to build an AI-powered application.
 - LangGraph: framework from LangChain that built to orchestrate agentic workflow to several components and its connection with each component.
