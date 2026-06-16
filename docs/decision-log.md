@@ -105,3 +105,32 @@ Revisit When:
 - Different analysis tasks require specialized prompts
 - Tool selection becomes unreliable
 - Workflow complexitu becomes difficult to maintain
+
+# Decision 005
+
+Title:
+Why LangChain before LangGraph?
+
+Alternatives:
+1. Use LangChain first
+2. Use LangGraph directly
+
+Decision:
+Start with Langchain first.
+
+Reason:
+- Need to build it as simple as possible in initial version
+- The main point here is to learn the fundamentals, not to build a fancy architecture directly
+
+Benefits:
+- Learn fundamental more deeply
+- Know when to use LangChain and when need to use LangGraph
+- Smaller learning surface
+
+Tradeoffs:
+- Cant really scalable if the app become more complex
+
+Revisit When:
+- Need more control of the workflow later
+- the architecture grows into more complex system
+- has multiple component that need to handled
